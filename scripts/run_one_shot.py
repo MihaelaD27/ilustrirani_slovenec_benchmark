@@ -13,12 +13,12 @@ warnings.filterwarnings("ignore")
 # =========================
 
 # Example model checkpoints:
-# "gemma-3-4b-it"
-# "gemma-3-12b-it"
-# "gemma-3-27b-it"
-# "SVILA-1-4B"
-# "SVILA-1-12B"
-model_id = "gemma-3-27b-it"
+# "google/gemma-3-4b-it"
+# "google/gemma-3-12b-it"
+# "google/gemma-3-27b-it"
+# "GaMS-Beta/SVILA-1-4B"
+# "GaMS-Beta/SVILA-1-12B"
+model_id = "google/gemma-3-27b-it"
 
 IMAGE_ROOT = "datasets"
 
