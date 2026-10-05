@@ -1,0 +1,14 @@
+torch
+transformers
+datasets
+peft
+trl
+bitsandbytes
+vllm
+pandas
+numpy
+Pillow
+jiwer
+PyMuPDF
+requests
+beautifulsoup4
