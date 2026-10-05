@@ -120,18 +120,7 @@ images/
 
 ## Models
 
-The experiments use the following vision-language model families:
-
-- Gemma 3 4B
-- Gemma 3 12B
-- Gemma 3 27B
-- SVILA 1 4B
-- SVILA 1 12B
-- EuroVLM 9B
-
-The corresponding public model checkpoints can be obtained from Hugging Face.
-
-For example:
+The experiments use the following publicly available vision-language models from Hugging Face:
 
 ```text
 google/gemma-3-4b-it
@@ -140,13 +129,9 @@ google/gemma-3-27b-it
 
 GaMS-Beta/SVILA-1-4B
 GaMS-Beta/SVILA-1-12B
+
+utter-project/EuroVLM-9B-Preview
 ```
-
-For EuroVLM, set `MODEL_ID` or `model_id` to the corresponding public `EuroVLM-9B-Preview` checkpoint or local model path.
-
-Model checkpoints are configured at the top of the individual scripts.
-
----
 
 ## Requirements
 
@@ -156,26 +141,7 @@ Install the required Python packages with:
 pip install -r requirements.txt
 ```
 
-The main dependencies are:
-
-```text
-torch
-transformers
-datasets
-peft
-trl
-bitsandbytes
-vllm
-pandas
-numpy
-Pillow
-jiwer
-PyMuPDF
-requests
-beautifulsoup4
-```
-
-For exact reproducibility, package versions should match the environment used for the experiments.
+The required dependencies are listed in `requirements.txt`.
 
 ---
 
