@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 # =========================
 
 # EuroVLM checkpoint
-model_id = "EuroVLM-9B-Preview"
+model_id = "utter-project/EuroVLM-9B-Preview"
 
 IMAGE_ROOT = "datasets"
 
