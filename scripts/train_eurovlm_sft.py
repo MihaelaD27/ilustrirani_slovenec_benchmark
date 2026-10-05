@@ -15,7 +15,7 @@ from transformers import (
 # CONFIG
 # ============================================================
 
-MODEL_ID = "EuroVLM-9B-Preview"
+model_id = "utter-project/EuroVLM-9B-Preview"
 
 DATA_DIR = "datasets"
 
